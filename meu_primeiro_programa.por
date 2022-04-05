@@ -32,7 +32,10 @@ programa
 				tratarNome()				
 			}senao se(opcao == 2) {
 				tratarIdade()
-			}senao se(opcao == 4) {
+			}senao se(opcao == 3) {
+				//Aqui eu preciso implementar o calculo de media
+			}
+			senao se(opcao == 4) {
 				tratarImpressaoAlunos()
 			}senao {
 				escreva("A Opcao ", opcao ," está em construção")
@@ -72,8 +75,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 907; 
- * @DOBRAMENTO-CODIGO = [53, 56];
+ * @POSICAO-CURSOR = 890; 
+ * @DOBRAMENTO-CODIGO = [56, 59];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
